@@ -1,0 +1,37 @@
+table
+{
+	font-family: Arial;
+	border: :1px solid black;
+	width: 400px;
+	font-size: :20px;
+	text-align :center;
+}
+
+table th{
+	background-color: darkblue;
+	color:whitesmoke;
+    border:1 px solid black;
+}
+
+
+table td
+{
+	border: 1px solid black;
+	font-size: 16px;
+}
+
+
+table tr:nth-child(odd)
+{
+	background-color:darkred;
+}
+
+table tr:nth-child(even)
+{
+	background-color:khaki;
+}
+
+table tr:nth-child(even):hover
+{
+	background-color:yellow;
+}
